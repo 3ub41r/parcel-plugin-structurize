@@ -14,7 +14,7 @@
         "chokidar-cli": "file:../../node_modules/chokidar-cli",
         "parcel-bundler": "file:../../node_modules/parcel-bundler",
         "parcel-plugin-nuke-dist": "^1.0.1",
-        "parcel-plugin-structurize": "file:../..",
+        "parcel-plugin-structurize": "^2.3.1",
         "sass": "^1.26.10"
     }
 }

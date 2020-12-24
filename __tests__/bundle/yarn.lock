@@ -3811,8 +3811,10 @@ parcel-plugin-nuke-dist@^1.0.1:
   dependencies:
     rimraf "^3.0.0"
 
-"parcel-plugin-structurize@file:../..":
-  version "2.0.1"
+parcel-plugin-structurize@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-structurize/-/parcel-plugin-structurize-2.3.1.tgz#65b69fe6c123b1f56735a1ef91cf1a27621eec0a"
+  integrity sha512-p1f8RYx3KaIIfNgD2ZmGFq6LChTqTXgFR8EASVgme8s4rmN/TSiuce/goxaz2HY4Mko4fHT87y0i5fxQVG54OQ==
   dependencies:
     chalk "^4.1.0"
     cosmiconfig "^7.0.0"

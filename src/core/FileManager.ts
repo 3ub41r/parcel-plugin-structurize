@@ -76,7 +76,7 @@ export class FileManager extends ConfigProvider {
             const thisDependent = this.assetsMap.get(dependent);
 
             if (thisDependent.replacer) {
-                newContent = newContent.replace(dependent, thisDependent.replacer);
+                newContent = newContent.replace(new RegExp(dependent, 'g'), thisDependent.replacer);
             }
 
             return newContent;
